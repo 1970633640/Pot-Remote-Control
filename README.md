@@ -25,3 +25,5 @@ Plug in Xbox Controller (or other XInput devices) before running this program.
 |DPad↑↓|Volume↑↓|
 |DPad←→|Playback ←→|
 |LR Trigger|Playback ←→ (4 speeds, push harder to backward/forward faster)|
+|RB|Next file in playlist|
+|LB|Previous file in playlist|
