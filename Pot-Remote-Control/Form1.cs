@@ -27,7 +27,7 @@ namespace Pot_Remote_Control
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://github.com");
+            Process.Start("https://github.com/1970633640/Pot-Remote-Control");
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -37,7 +37,7 @@ namespace Pot_Remote_Control
             connected = controller.IsConnected;
             if (!connected)
             {
-                MessageBox.Show("Controller required!\nhttps://github.com", "No Xinput controller detected!");
+                MessageBox.Show("Controller required!\nhttps://github.com/1970633640/Pot-Remote-Control", "No Xinput controller detected!");
                 this.Close();
             }
         }
