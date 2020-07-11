@@ -100,7 +100,11 @@ namespace Pot_Remote_Control
                     SendKeys.SendWait("%{F4}");
                 if (gamepad.Buttons == GamepadButtonFlags.Start)
                     SendKeys.SendWait("{ENTER}");
-                
+                if (gamepad.Buttons == GamepadButtonFlags.RightShoulder)
+                    SendKeys.SendWait("{PGDN}");
+                if (gamepad.Buttons == GamepadButtonFlags.LeftShoulder)
+                    SendKeys.SendWait("{PGUP}");
+
                 if (gamepad.Buttons == GamepadButtonFlags.DPadRight && (!(gamepad.Buttons == GamepadButtonFlags.X)))
                     SendKeys.SendWait("{RIGHT}");
                 if (gamepad.Buttons == GamepadButtonFlags.DPadLeft && (!(gamepad.Buttons == GamepadButtonFlags.X)))
